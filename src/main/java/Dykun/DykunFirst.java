@@ -2,6 +2,12 @@ package Dykun;
 
 public class DykunFirst {
     public void test(){
-        System.out.println("Method main add");
+        testPrivate(50);
+    }
+
+    private void testPrivate (int x){
+        if (x>100) {
+            System.out.println("Hello Dykun");
+        } else System.out.println("Hello Manko");
     }
 }
